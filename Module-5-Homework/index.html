@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css"/>
+   
+    <title>Work Day Scheduler</title>
+  </head>
+
+  <body>
+    <header class="jumbotron">
+      <h1 class="display-3">Work Day Scheduler</h1>
+      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <p id="currentDay" class="lead"></p>
+    </header>
+    <div class="container">
+      <!-- Timeblocks go here -->
+       <!--8AM-->
+    <div class="row">8AM <input type="text" class="hour" data-time="8" id="8"  style="width: 80%" ;><input type="button"
+        value="save" class="saveBtn" />
+    </div>
+        <!--9AM-->
+    <div class="row">9AM <input type="text" class="hour" data-time="9" id="9"  style="width: 80%" ;><input type="button"
+        value="save" class="saveBtn" /></div>
+        <!--10AM-->
+    <div class="row">10AM <input type="text" class="hour" data-time="10" id="10"  style="width: 80%" ;><input type="button"
+        value="save" class="saveBtn" /></div>
+        <!--11AM-->
+    <div class="row">11AM <input type="text" class="hour" data-time="11" id="11" style="width: 80%" ;><input type="button"
+        value="save" class="saveBtn" /></div>
+        <!--12AM-->
+    <div class="row" >12AM <input type="text" class="hour" data-time="12" id="12" style="width: 80%" ;><input type="button"
+        value="save" class="saveBtn" /></div>
+        <!--1PM-->
+    <div class="row" >1PM<input type="text" class="hour" data-time="13" id="13" style="width: 80%" ;><input
+        type="button" value="save" class="saveBtn" /></div>
+        <!--2PM-->
+    <div class="row">2PM<input type="text" class="hour" data-time="14" id="14" style="width: 80%" ;><input
+        type="button" value="save" class="saveBtn" /></div>
+        <!--3PM-->
+    <div class="row">3PM<input type="text" class="hour" data-time="15" id="15"  style="width: 80%" ;><input
+        type="button" value="save" class="saveBtn" /></div>
+        <!--4PM-->
+    <div class="row">4PM <input type="text" class="hour" data-time="16" id="16"  style="width: 80%" ;><input
+        type="button" value="save" class="saveBtn" /></div>
+        <!--5PM-->
+    <div class="row">5PM <input type="text" class="hour" data-time="17" id="17" style="width: 80%" ;><input
+        type="button" value="save" class="saveBtn" /></div>
+        <!--6PM-->
+    <div class="row">6PM <input type="text" class="hour" data-time="18" id="18" style="width: 80%" ;><input
+        type="button" value="save" class="saveBtn" /></div>
+        <!--7PM-->
+    <div class="row">7PM <input type="text" class="hour" data-time="19" id="19" style="width: 80%" ;><input
+        type="button" value="save" class="saveBtn" /></div>
+        <!--8PM-->
+    <div class="row">8PM <input type="text" class="hour" data-time="20" id="20"  style="width: 80%" ;><input
+        type="button" value="save"  class="saveBtn" /></div>
+        <!--9PM-->
+    <div class="row">9PM <input type="text" class="hour" data-time="21" id="21" style="width: 80%" ;><input
+        type="button" value="save" class="saveBtn" /></div>
+        
+      
+    </div>
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
